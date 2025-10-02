@@ -1,0 +1,186 @@
+# ===========================
+# Python
+# ===========================
+# Virtual environments
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.venv/
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache and compiled files
+backend/__pycache__/
+backend/**/__pycache__/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/coverage.xml
+backend/*.cover
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Database
+backend/*.db
+backend/*.sqlite3
+*.db
+*.sqlite3
+
+# Environment variables
+backend/.env
+backend/.env.local
+backend/.env.*.local
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# Node.js / Frontend
+# ===========================
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+frontend/.vite/
+dist/
+build/
+.vite/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.production.local
+frontend/.env.development.local
+
+# Testing
+frontend/coverage/
+coverage/
+
+# Logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===========================
+# Docker
+# ===========================
+# Volumes and data
+postgres_data/
+*.sql
+*.dump
+
+# ===========================
+# IDEs and Editors
+# ===========================
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# Operating System
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================
+# Deployment & Secrets
+# ===========================
+# SSL certificates
+*.pem
+*.key
+*.crt
+letsencrypt/
+
+# Secrets
+secrets/
+*.secret
+.secrets
+
+# Deployment configs (use examples instead)
+docker-compose.override.yml
+.env.production
+
+# ===========================
+# Misc
+# ===========================
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
